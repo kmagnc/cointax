@@ -3,6 +3,8 @@ from tabulate import tabulate
 import dateutil.parser
 from coinbase.wallet.client import Client as CoinbaseClient
 
+# TODO: pip install list / file (coinbase, python-binance, tabulate)
+
 # export your coinbase_api_key and coinbase_api_secret as environmental vars for now. Probably will be oath2 when this is a web app
 coinbase_api_key = os.environ.get('coinbase_api_key')
 coinbase_api_secret = os.environ.get('coinbase_api_secret')
